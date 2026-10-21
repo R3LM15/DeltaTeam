@@ -41,4 +41,13 @@ class BookingPolicyTest {
         assertTrue(r.book("E01", "B"));
         assertFalse(r.isAvailable("B"));
     }
+
+    // Solicitud de cambio CR-01
+    @Test
+    void estudianteNoPuedeReservarDosBloques() {
+        assertTrue(policy.book(ownerBySlot, "E01", "A"));
+
+        assertFalse(policy.book(ownerBySlot, "E01", "B"));
+    }
+
 }
