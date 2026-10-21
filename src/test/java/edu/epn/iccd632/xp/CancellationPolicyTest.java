@@ -46,4 +46,3 @@ class CancellationPolicyTest {
         assertEquals(Map.of("A", "E01"), ownerBySlot);
     }
 }
-
