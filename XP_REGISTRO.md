@@ -1,4 +1,4 @@
-# Registro XP - Equipo 01
+# Registro XP - Equipo Delta
 Repositorio: https://github.com/R3LM15/DeltaTeam
 Integrantes y usuarios GitHub:
 - Nathaly Bravo — @nathalyb372-afk
