@@ -50,4 +50,17 @@ class BookingPolicyTest {
         assertFalse(policy.book(ownerBySlot, "E01", "B"));
     }
 
+    @Test
+    void otroEstudiantePuedeReservarBloqueLibre() {
+        policy.book(ownerBySlot, "E01", "A");
+        assertTrue(policy.book(ownerBySlot, "E02", "B"));
+    }
+
+    @Test
+    void trasLiberarSuBloqueEstudiantePuedeReservarOtro() {
+        policy.book(ownerBySlot, "E01", "A");
+        ownerBySlot.remove("A"); // simula la cancelación de HU-02 sin depender de esa rama
+        assertTrue(policy.book(ownerBySlot, "E01", "B"));
+    }
+
 }
