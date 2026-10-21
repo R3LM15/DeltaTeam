@@ -1,0 +1,13 @@
+# Artefactos de compilación
+/target/
+*.class
+# Archivos específicos de editores: el proyecto debe seguir siendo genérico
+.idea/
+*.iml
+.vscode/
+nbproject/
+nbactions.xml
+# Sistema operativo y archivos temporales
+.DS_Store
+Thumbs.db
+*.log
