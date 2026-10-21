@@ -15,9 +15,9 @@ Evitar conflictos al reservar una única sala de estudio con bloques A, B y C. E
 2. Retroalimentación: cada historia empezó con una prueba JUnit que falla (RED) y luego el código mínimo para que pase (GREEN), comprobado con `mvn test`.
 
 ## Responsabilidades flexibles
-Pareja 1 (HU-01 y CR-01): Mateo Molina / Stiv Quishpe | Pareja 2 (HU-02): Nathaly Bravo / Jarvin Ríos
+Pareja 1 (HU-01 y CR-01): Mateo Molina (driver) / Stiv Quishpe (navigator) | Pareja 2 (HU-02): Jarvin Ríos (driver) / Nathaly Bravo (navigator)
 Facilitación: [Nombre] | Seguimiento: [Nombre] | Consulta al cliente: [Nombre]
-Rotación conductor/navegador: [registrar si se realizó]
+Rotación conductor/navegador: no se realizó; cada pareja mantuvo sus roles.
 
 ## Historias, aceptación y estimaciones
 | Historia | Prioridad | Estimación relativa | Criterios de aceptación | Tareas |
