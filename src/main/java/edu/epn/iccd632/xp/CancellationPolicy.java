@@ -15,3 +15,4 @@ final class CancellationPolicy {
         ownerBySlot.remove(slot);
         return true;
     }
+}
